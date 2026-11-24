@@ -1,0 +1,21 @@
+name: Perl checks
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  perl:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Perl version
+        run: perl -v | head -n 2
+
+      - name: Syntax check (perl -c)
+        run: perl -c Kernel/System/Ticket/Event/TicketNotifyAgent.pm
+
+      - name: Smoke tests (prove)
+        run: prove -v t

@@ -82,4 +82,4 @@ TicketNotifyAgent: notification for ticket 2026112410123456 sent to agent@exampl
 
 ## Lizenz
 
-GPL-3.0, passend zu OTOBO selbst.
+GPL-3.0, passend zu OTOBO selbst – vollständiger Text in [`LICENSE`](LICENSE).
