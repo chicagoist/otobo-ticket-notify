@@ -1,5 +1,7 @@
 # OTOBO Demo-Modul: Agenten-Benachrichtigung bei `TicketCreate`
 
+[![Perl checks](https://github.com/chicagoist/otobo-ticket-notify/actions/workflows/ci.yml/badge.svg)](https://github.com/chicagoist/otobo-ticket-notify/actions/workflows/ci.yml)
+
 Kleines OTOBO-Event-Modul in Perl, das den zustaendigen Agenten per E-Mail
 benachrichtigt, sobald ein Ticket angelegt wird.
 
